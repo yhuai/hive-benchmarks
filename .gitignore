@@ -1,0 +1,11 @@
+*.DS_Store
+*tpch-kit/
+*tpcds-kit/
+*SS-DB-MySQL/
+*~
+*core-site.xml
+*hdfs-site.xml
+*mapred-site.xml
+*hive-site.xml
+ec2/hadoop-conf/master
+ec2/hadoop-conf/slaves

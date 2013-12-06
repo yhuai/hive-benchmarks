@@ -1,0 +1,1 @@
+This directory contains various Hive setting files used to initialize an experimental queries.

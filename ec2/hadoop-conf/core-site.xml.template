@@ -1,0 +1,28 @@
+<!--Wed Apr 24 19:24:04 2013-->
+  <configuration>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/mnt/mnt0/hadoop</value>
+  <description>A base for other temporary directories.</description>
+  </property>
+	<property>
+    <name>io.compression.codecs</name>
+      <value>org.apache.hadoop.io.compress.SnappyCodec</value>
+  </property>
+    <property>
+    <name>io.file.buffer.size</name>
+    <value>131072</value>
+  </property>
+  <property>
+    <name>fs.default.name</name>
+    <value>hdfs://MASTER:8020</value>
+  </property>
+  <property>
+    <name>ipc.client.connection.maxidletime</name>
+    <value>30000</value>
+  </property>
+  <property>
+    <name>ipc.client.connect.max.retries</name>
+    <value>50</value>
+  </property>
+  </configuration>
