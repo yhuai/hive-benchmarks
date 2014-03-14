@@ -19,9 +19,7 @@ where
    cd_education_status = 'Primary' and
    d_year = 2002 and
    s_state in ('GA','PA', 'LA', 'SC', 'MI', 'AL')
-group by
-   i_item_id,
-   s_state
+group by i_item_id, s_state with rollup
 order by
    i_item_id,
    s_state
@@ -45,9 +43,7 @@ where
    cd_education_status = 'Primary' and
    d_year = 2002 and
    s_state in ('GA','PA', 'LA', 'SC', 'MI', 'AL')
-group by
-   i_item_id,
-   s_state
+group by i_item_id, s_state with rollup
 order by
    i_item_id,
    s_state

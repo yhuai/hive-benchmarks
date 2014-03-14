@@ -25,6 +25,7 @@ set hive.optimize.reducededuplication=false;
 set hive.optimize.reducededuplication.min.reducer=1;
 set hive.input.format=org.apache.hadoop.hive.ql.io.HiveInputFormat;
 set hive.mapjoin.smalltable.filesize=85000000;
+set hive.mapjoin.check.memory.rows=500000; 
 
 set hive.optimize.index.filter=false;
 set hive.vectorized.execution.enabled=false;
